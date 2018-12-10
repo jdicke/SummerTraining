@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+    <head>
+        
+         <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>My Summer Training</title>
+        <link href="main.css" rel ="stylesheet" type="text/css">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">         
+    </head>
+    
+    <body>
+        
+        <header role="banner">
+                <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #005e80;">
+                      <a class="navbar-brand" href="index.html">Summer Training</a>
+                      <button class="navbar-toggler" type="button" data-
+                              toggle="collapse" data-
+                              target="#navbarSupportedContent" aria-
+                              controls="navbarSupportedContent" aria-
+                              expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                      <div class="collapse navbar-collapse" 
+                           id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                          <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-
+                                only">(current)</span></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="completedworkouts.html">Completed Workouts</a>
+                          </li>
+                        </ul>                
+                      </div>
+                    </nav>
+        </header>
+                
+            <div class="top">
+                <h1>2018 summer training.</h1>
+                <h4>-The grind begins - and don't ever stop :)-</h4>  
+            </div>
+        
+        <div id="back">
+        <div class="container">
+            <div class="rowButton">
+                <div class="col-sm-12 col-xs-12">
+                    <button onclick="grabMondayLink()" 
+                            type="button" 
+                            class="btn btn-outline-primary">
+                        Monday Motivation</button>
+                    <button type="button" 
+                            class="btn btn-outline-info"
+                            onclick = "socialMedia()">
+                        Social Media</button>
+                    
+                    <div id="hiddenSocial" style="display:none">
+                        <div class="myPanel">
+                            <div class="heading">Social Media</div>
+                            <div class="body">
+                                <p>Instagram: @jojo_dicke</p>
+                                <p>Twitter: @jojodicke</p> 
+                            </div>
+                        </div>     
+                    </div>
+                    
+                    <button type="button" 
+                            class="btn btn-outline-dark"
+                            onclick="contact()">Contact</button>
+                    
+                   <div id="hiddenContact" style="display:none">
+                        <div class="myPanel">
+                            <div class="heading">Contact</div>
+                            <div class="body">
+                                <p>Email: jojojojodicke@gmail.com</p>
+                                <p>Or dm on instagram or twitter</p> 
+                            </div>
+                        </div>     
+                    </div>
+                   </div> 
+                </div>
+        </div>
+        
+        <div class="container">            
+            <br>
+            <p class="random">
+                <strong>Here is my schedule for each week:</strong>
+            </p>
+                
+            <p><strong>Monday:</strong>
+                <em>Easy Run</em> - Sprints, CORE, Hurdle Mobility, Sand Walks
+            </p>
+            <p class="secondary"><strong>Tuesday:</strong>
+                <em>Workout</em> - Weights
+            </p>
+            <p><strong>Wednesday:</strong>
+                <em>Easy Run</em> - Jump Rope, CORE, Hurdle Mobility, Sand Walks
+            </p>
+            <p><strong>Thursday:</strong>
+                <em>Easy Run</em> - CORE, Hurdle Mobility
+            </p>
+            <p class="secondary"><strong>Friday:</strong>
+                <em>Workout</em> - Weights
+            </p>
+            <p><strong>Saturday:</strong>
+                <em>Easy Run</em> - CORE
+            </p>
+            <p class="secondary"><strong>Sunday:</strong>
+                <em>Long Run</em> - few strides, Glute Activation
+            </p>   
+
+            <ul>
+                <li>Sprints are @ 95% and get faster</li>
+                <li>Strides done @ 1500m pace</li>
+            </ul>        
+        </div>
+            
+        <p id="core">CORE ROUTINE</p>
+                                       
+        <div class="myPanel">
+            <div class="heading">Group 1</div>
+            <div class="body">
+                <p>Leg lifts, Secular Retrations, Push-Ups</p>
+                <div class="showOnHover">
+                    <br>
+                    <p class="extracore"><strong>Extra Core</strong></p>
+                    <p class="extracore">Chelimo x25 each</p>
+                </div>
+            </div>
+        </div>
+            
+        <div class="myPanel">
+            <div class="heading">Group 2</div>
+            <div class="body">
+                <p>Dead bug, Stir the Pot, Clams</p>
+                <div class="showOnHover">
+                    <br>
+                    <p class="extracore"><strong>Extra Core</strong></p>
+                    <p class="extracore">Heel touches x50</p>
+                </div>
+            </div>
+        </div>
+            
+        <div class="myPanel">
+            <div class="heading">Group 3</div>
+            <div class="body">
+                <p>Side planks, Crunches to leg movements, Reverse Bench, Front Bridge</p>
+                <div class="showOnHover">
+                    <br>
+                    <p class="extracore"><strong>Extra Core</strong></p>
+                    <p class="extracore">Russian Twists x 1 min</p>
+                </div>
+            </div>
+        </div>
+   
+            <br><br>
+            <p class="random">
+                <strong>Summer Progress</strong>
+            </p>
+        
+        <div class="progress">
+            <div id="testProgress" class="progress-bar progress-bar-striped progress-bar-animated bg-info" 
+                 role="progressbar" aria-valuenow="50" 
+                 aria-valuemin="0" aria-   valuemax="100">
+            </div>
+        </div>
+        
+            
+            <footer>
+                @2018 Summer Training (Jojo Dicke)
+            </footer>
+            
+        </div>
+         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+        <script src="running.js"></script>
+    </body>
+</html>

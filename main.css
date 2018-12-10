@@ -1,0 +1,242 @@
+body {
+    background: #007399;
+    font-family: arial;
+    margin: 0;
+}
+
+h1, h2, h4 {
+    color: white; 
+    margin: 0;
+    text-align: center;
+}
+
+.top {
+    background: #666;
+    padding: 30px;
+    color: white;
+}
+
+a {
+    color: white;
+    padding: 10px 46.1%;
+    text-align: center;
+}
+
+header a {
+    text-align: left;
+    padding: 0px;
+}
+
+p {
+    background: #80c1ff;  
+    color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    width: 50%;
+    text-align-last: left;
+    margin: auto;
+}
+
+.secondary {
+    background: #4da9ff;
+    color: #333;
+}
+
+.random {
+    background: none;
+    color: #00284d;
+    font-size: 30px;
+    text-align-last: center;
+}
+
+#core {
+    font-size: 35px;
+    background: #666;
+    padding: 2%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-align-last: center;
+    width: 100%;
+    border-radius: 0px;
+}
+
+header {
+    background: #999;
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px 20px;
+}
+
+nav ul li a {
+    color: white;  
+}
+
+ul li {
+    list-style-position: inside;
+    list-style-type: square;
+    color: #0069cc;
+    text-align-last: left;
+    text-align: center;
+    width: 25%;
+    margin: auto;
+}
+
+.tempo {
+    color: purple;   
+    text-align-last: left;
+    width: 100%;
+    text-align: left;
+    padding: .5%;
+}
+
+.longrun {
+    color: red;   
+    text-align-last: left;
+    width: 100%;
+    text-align: left;
+    padding: .5%;
+}
+
+.hill {
+    color: blue;
+    text-align-last: left;  
+    width: 100%;
+    text-align: left;
+    padding: .5%;
+}
+
+.weights {
+    color: green;
+    text-align-last: left;  
+    width: 100%;
+    text-align: left;
+    padding: .5%;
+}
+
+.row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.rowButton {
+    padding: 2%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    background: #99ccff;
+    margin-top: 0px;
+}
+
+.col {
+    background: #4da9ff;
+    border-radius: 5px;
+    border: .4px solid #333;
+    padding: 5px 5px;
+    float: left;
+    margin: 2%;
+    width: 31%;
+    color: #333;
+    text-align: center;
+}
+
+.darkBG {
+    background: #999;   
+}
+
+.darkerBG {
+    background: #666;   
+}
+
+.darkestBG {
+    background: #333;   
+}
+
+.progress {
+    margin: 2%;   
+    align-content: center;
+    width: 50%;
+}
+
+.myPanel {
+    margin: 1.5%;
+    width: 30%;
+    border: 1px solid #0069cc;
+    border-radius: 5px 5px 0 0;
+    box-shadow: 0px 0px 4px #004f99;
+    display: inline-block;
+}
+
+.myPanel .heading {
+    background: #4da9ff;
+    border-radius: 5px 5px 0px 0px;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.myPanel .body {
+    padding: 10px 20px;
+    background: none;
+    text-align: center;
+}
+
+.myPanel p {
+    background: none; 
+    color: #333;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    text-align-last: center;
+    font-size: 12px;
+}
+
+.extracore {
+    font-size: 20px;
+}
+
+.myPanel .showOnHover {
+    display: none;   
+}
+
+.myPanel:hover {
+    box-shadow: 0px 0px 8px #005cb3;  
+    border: 2px solid #005cb3;
+}
+
+.myPanel:hover .showOnHover {
+    display: inline-block;
+}
+
+#back {
+    background: #99ccff;
+}
+
+.progress {
+    margin: auto;
+}
+
+footer {
+    padding: 40px 40px 0px 0px;
+}
+
+.completedWorkoutSummary {
+    background: none;  
+    color: white;
+    padding: 1%;
+    border-radius: 0px;
+    width: 100%;
+    text-align-last: center;
+    margin: auto;
+    font-size: 18px;
+}
